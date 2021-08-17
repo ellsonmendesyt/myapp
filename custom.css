@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* 
+  CSS GLOBAL 
+*/
+
+:root{
+    --princial: darkturquoise;
+    --princial: #0dcaf0;
+}
+
+body{
+    transition: all .2s ease-in-out;
+}
+
+
+.meuform input, .meuform textarea,.meuform, .meuform select {
+    border-color: var(--princial);
+}
+
+
+.botao{
+border:1px solid var(--princial) !important;
+background-color: transparent;
+border-radius: 5px;
+color: var(--princial);
+padding: 5px 10px;
+box-shadow: none;
+outline: none !important;
+}
+
+.botao{transition: all .2s ease-in-out;}
+.botao.ativo{
+    background-color: var(--princial);
+    color: white;
+}
+.botao:hover{
+    background-color: rgb(21, 246, 250);
+    color: #fff;
+}
+
+*::placeholder, label{
+    color:var(--princial) !important;
+}
+select,option{
+    color: var(--princial)!important;
+}
+
+.tags-title{color: var(--princial);}
+
+.main-title{
+    font-family: 'Nunito', sans-serif;
+    color: var(--princial);
+    text-transform: uppercase;
+}
